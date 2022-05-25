@@ -1,0 +1,270 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Custom Properties */
+
+:root {
+    --ff-primary: 'Source Sans Pro', sans-serif;
+    --ff-secondary: 'Source Code Pro', monospace;
+    
+    --fw-reg: 300;
+    --fw-bold: 900;
+    
+    --clr-light: #fff;
+    --clr-dark: #303030;
+    --clr-accent: #131212;
+    
+    --fs-h1: 3rem;
+    --fs-h2: 2.25rem;
+    --fs-h3: 1.25rem;
+    --fs-body: 1rem;
+}
+
+@media (min-width: 800px) {
+    :root {
+        --fs-h1: 5.0;
+        --fs-h2: 3.75rem;
+        --fs-h3: 1.5rem;
+        --fs-body: 1.125rem;
+    }
+}
+
+ /* general styles */
+
+ body {
+    background: var(--clr-light);
+    color: var(--clr-dark);
+    margin: 0;
+    font-family: var(--ff-primary);
+    font-size: var(--fs-body);
+    line-height: 1.6;
+    padding: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+
+/* Typography */
+
+h1,
+h2,
+h3 {
+    line-height: 1.1;
+    margin: 0;
+}
+
+h1 { font-size: var(--fs-h1) }
+h2 { font-size: var(--fs-h2) }
+h3 { font-size: var(--fs-h3) }
+
+.section__title {
+    margin-bottom: .25em;
+}
+
+.section__title--intro {
+    font-weight: var(--fw-reg);
+   
+   
+}
+.section__subtitle--intro{
+    width: 30%;
+    padding: 1% 0% 1% 5%;
+    color: #fff;
+    font-size: 30%;
+    font-weight: bold;
+}
+
+.section__subtitle {
+    margin: 0;
+    font-size: var(--fs-h3);
+}
+
+.section__subtitle--intro,
+.section__subtitle--about {
+    background: var(--clr-accent);
+    font-family: var(--ff-secondary);
+}
+.logo{
+    
+    padding: 2%;
+ 
+}
+.myname{
+   font-weight: bold;
+}
+
+body{
+    padding: 2%;
+}
+
+.nav_list{
+text-align: center;
+margin-top: 4%;
+
+}
+
+.nav_list,a{
+    text-decoration: none;
+    color: #303030;
+    padding: 3.5%;
+  
+
+}
+.picandname{
+display: flex;
+justify-content: space-between;
+position: relative;
+}
+
+.nameandproffession{
+    width: 50%;
+    margin-right: 10%;
+}
+
+.myfirstpic{
+    margin-left: 12%;
+   
+}
+.section__title--intro{
+    font-size: 300%;
+}
+
+.softwareengineer{
+    font-size: 200%;
+    border: solid white;
+    background-color: #303030;
+    color: #fff;
+    font-weight: 500;
+    padding: 1% 0% 1% 25%;
+   
+}
+.my-services{
+    background-color: #2b2828;
+}
+.section__title--services{
+    text-align: center;
+    color: #fff;
+
+}
+.service{
+    color: #fff;
+}
+
+.footer{
+    background-color: #0a0a0a;
+   position: relative;
+   
+ 
+}
+
+.socialist{
+    color: aqua;
+    margin-left: 15%;
+   
+    
+}
+
+.footer-link{
+   color: #fff; 
+   margin-left: 39%;
+   
+}
+.my-services{
+    /* background: url(/PORTFOLIO_IMAGES/laptop\ and\ code.jpg )rgba(1, 2, 50, 0.7000); */
+    background-image: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65)),url(/PORTFOLIO_IMAGES/laptop\ and\ code.jpg);
+    background-size: contain ;
+    background-repeat: no-repeat;
+    
+    background-size: cover;
+   
+
+}
+
+.allservices{
+    display: flex;
+    padding: 2%;
+    text-align: center;
+    justify-content: space-between;
+}
+/* .overlay{
+    background: linear-gradient(to bottom black);
+} */
+.section__title--about{
+    margin-left: 12%;
+}
+.section__subtitle--about{
+width: 40%;
+margin-top: 5%;
+
+}
+
+   
+
+.aboutmeimage{
+    margin-left: 13%;
+    margin-bottom: 6%;
+
+    
+    
+     
+}
+.aboutmeparagraph{
+    margin-left: 13%;
+    
+}
+.whoiamandparagraphandimage{
+    display: flex;
+    justify-content: space-between;
+}
+
+.paragraphandimage{
+    display: flex;
+    align-items: center;
+    
+}
+.whoiam{
+ text-align: center;
+}
+.whoiamtext1{
+    font-size: larger;
+    border: #303030;
+    background-color: #080808;
+    color: #fff;
+    width: 242%;
+    padding: 5% 0% 5% 13%;
+
+}
+
+.aboutmep{
+    margin-left: 15%;
+    font-size: larger;
+}
+/* 
+.navigate{
+    margin-left: ;
+} */
+
+.portfolio1{
+   display: flex;
+}
+
+.portfolio2{
+    display: flex;
+ }
+
+ .portfolio{
+   margin-left: 15%;
+ }
+ .my-work{
+     background: #303030;
+ }
+
+.portfolio__img{
+margin-right: 10%;
+}
